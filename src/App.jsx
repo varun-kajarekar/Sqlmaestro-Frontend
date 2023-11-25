@@ -9,7 +9,7 @@ import Header from './components/Header';
 
 function App() {
 
-  const [SqlQuery, setSqlQuery] = useState("select * from PRODUCTS;");
+  const [SqlQuery, setSqlQuery] = useState("");
   const [QueryResult , setQueryResult] = useState();
 
   return (

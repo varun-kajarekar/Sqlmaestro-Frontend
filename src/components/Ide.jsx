@@ -26,7 +26,6 @@ const Ide = ({setSqlQuery}) => {
                 highlightActiveLine={false}
                 width="100%"
                 height="54vh"
-                value={`select * from PRODUCTS;`}
                 setOptions={{
                     enableLiveAutocompletion: true,
                     enableSnippets: false,
