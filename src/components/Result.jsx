@@ -3,7 +3,7 @@ import TableSturture from './TableSturture';
 
 const Result = (QueryResult)=>{
     return(
-        <div className='h-[40vh] overflow-y-scroll border-t border-e'>
+        <div className='h-[40vh] overflow-y-scroll border-t border-e w-[50vw]'>
             <div className='mx-9 mt-5'>
                 <p className='text-xl'>Output</p>
             </div>

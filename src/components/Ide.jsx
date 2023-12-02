@@ -13,8 +13,6 @@ const Ide = ({setSqlQuery}) => {
         setSqlQuery(Query);
     }
     return (
-        <div className="border-e">
-
             <AceEditor
              
                 mode="sql"
@@ -24,7 +22,7 @@ const Ide = ({setSqlQuery}) => {
                 showPrintMargin={false}
                 showGutter={true}
                 highlightActiveLine={false}
-                width="100%"
+                width="50vw"
                 height="54vh"
                 setOptions={{
                     enableLiveAutocompletion: true,
@@ -32,7 +30,6 @@ const Ide = ({setSqlQuery}) => {
                     showLineNumbers: false,
                 }}
                 />
-                </div>
     );
 }
 
